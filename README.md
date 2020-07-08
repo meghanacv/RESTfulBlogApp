@@ -1,5 +1,5 @@
 # RESTfulBlogApp
-RESTful Blog App
+
 
 ### Blog Index 
 - Setup the Blog App
