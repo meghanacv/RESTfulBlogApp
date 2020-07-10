@@ -1,5 +1,5 @@
 # RESTfulBlogApp
-
+A Blog App made with RESTful Routing and Semantic UI
 
 ### Blog Index 
 - Setup the Blog App
