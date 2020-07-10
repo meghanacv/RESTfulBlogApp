@@ -4,6 +4,7 @@ var bodyParser = require("body-parser");
 var mongoose = require("mongoose");
 var methodOverride = require("method-override");
 var expressSanitizer = require("express-sanitizer");
+var port = process.env.PORT || 3000;
 
 //APP CONFIG
 mongoose.connect('mongodb://localhost:27017/restful_blog_app', {useNewUrlParser: true, useUnifiedTopology: true,  useFindAndModify: false});
@@ -110,6 +111,6 @@ app.delete("/blogs/:id", function(req, res){
 
 
 
-app.listen(3000, function(){
-    console.log("Server has started!!!");
+app.listen(port, "0.0.0.0", function() {
+console.log("Listening on Port 3000");
 });
