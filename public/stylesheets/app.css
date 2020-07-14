@@ -10,3 +10,28 @@ i.icon{
 #delete{
 	display: inline;
 }
+
+body {
+  background-image: url(https://cdn-resources.ableton.com/loop.uploads/filer_public_thumbnails/filer_public/4f/94/4f949fa9-9360-4485-aa7f-e6b6d93089e8/large.jpg__2560x1440_q85_subsampling-2.jpg);
+	background-size: cover;
+	background-position: fixed;
+}
+
+#rest{
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+}
+	
+#nav {
+    background: rgb(222,192,222);
+    
+}
+
+#blog{
+	font-family: 'Nanum Gothic', sans-serif;
+}
+
+
+#blogs{
+	background-color: #dfe6e9;
+}
