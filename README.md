@@ -1,5 +1,5 @@
 # RESTfulBlogApp
-A Blog App made with RESTful Routing and Semantic UI
+A Blog App made with RESTful Routing and Semantic UI. It allow user to create, read, update, and delete (CRUD) various blog posts
 
 ### Blog Index 
 - Setup the Blog App
